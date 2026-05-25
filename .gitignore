@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment variables (contains API keys)
+.env
+
+# Model cache (large binary files)
+models_cache/*.onnx
+models_cache/*.pth
+models_cache/*.bin

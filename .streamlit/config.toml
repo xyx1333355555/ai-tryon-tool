@@ -1,0 +1,14 @@
+[general]
+email = ""
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = true
+
+[runner]
+enforceSerializableSessionState = false
